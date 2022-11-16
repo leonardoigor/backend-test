@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c56efe5a-401b-41bd-bfae-823c20463506" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/BookStore.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/BookStore.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/BooksTests/BookAddTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/BooksTests/BookAddTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/BookStore.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/BookStore.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HdMwDNJrUtpVVcKdgEhPTKKQJo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c56efe5a-401b-41bd-bfae-823c20463506" name="Changes" comment="" />
+      <created>1668610767858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668610767858</updated>
+      <workItem from="1668610778867" duration="293000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
