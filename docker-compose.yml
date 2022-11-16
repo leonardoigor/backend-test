@@ -1,0 +1,23 @@
+version: '3.7'
+
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: Api
+    volumes:
+      - .:/app
+    tty: true
+
+  sqlServer:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: SqlServer
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    # volumes:
+    #   - ./sqlserver:/var/opt/mssql
