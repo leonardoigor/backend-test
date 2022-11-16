@@ -9,6 +9,7 @@ namespace BookStore.Domain.Services;
 public class BookService : Notifiable, IBookService
 {
     private readonly IBookRepository _bookRepository;
+
     public BookService(IBookRepository bookRepository)
     {
         _bookRepository = bookRepository;
@@ -16,11 +17,12 @@ public class BookService : Notifiable, IBookService
 
     public bool Add(BookAddDTO bookAddDTO)
     {
-        if(bookAddDTO == null)
+        if (bookAddDTO == null)
         {
             AddNotification("Book", "Livro não informado");
             return false;
         }
+
         var book = (BookEntity)bookAddDTO;
 
         if (book.IsInvalid())
@@ -28,7 +30,8 @@ public class BookService : Notifiable, IBookService
             AddNotifications(book);
             return false;
         }
-        var result= _bookRepository.Add(book);
+
+        var result = _bookRepository.Add(book);
         if (result == null)
         {
             AddNotification("Book", "Livro não cadastrado");
@@ -36,5 +39,17 @@ public class BookService : Notifiable, IBookService
         }
 
         return true;
+    }
+
+    public bool Delete(Guid guid)
+    {
+        var book = _bookRepository.GetById(guid);
+        if (book == null || guid == Guid.Empty)
+        {
+            AddNotification("Book", "Livro não encontrado");
+            return false;
+        }
+
+        return _bookRepository.Remove(book);
     }
 }

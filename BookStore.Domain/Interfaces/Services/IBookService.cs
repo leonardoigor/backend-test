@@ -3,7 +3,8 @@ using BookStore.Domain.Interfaces.Services.Base;
 
 namespace BookStore.Domain.Interfaces.Services;
 
-public interface IBookService:IServiceBase
+public interface IBookService : IServiceBase
 {
     bool Add(BookAddDTO bookAddDTO);
+    bool Delete(Guid guid);
 }
