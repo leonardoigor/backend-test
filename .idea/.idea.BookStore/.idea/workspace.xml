@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c56efe5a-401b-41bd-bfae-823c20463506" name="Changes" comment="" />
+    <list default="true" id="c56efe5a-401b-41bd-bfae-823c20463506" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BookStore.Infra/BookStore.Infra.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/BookStore/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/BookStore/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/BookStore/FileContentIndex/a6840905-28e5-45a2-98e6-41f8264dbbc3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/BookStore/v17/.futdcache.v1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/BookStore/v17/.futdcache.v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/BookStore/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/BookStore/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/bookstore.metadata.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/bookstore.metadata.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/bookstore.projects.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/bookstore.projects.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/BookStore.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/BookStore.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/Entities/BookEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/Entities/BookEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/BookStore.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/BookStore.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/BookStore.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/BookStore.Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/ref/BookStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/ref/BookStore.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/refint/BookStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/refint/BookStore.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/BookStore.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/BookStore.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/BookStore.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/BookStore.Tests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +48,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/46a322d26154b982566e1817203e5452c91223f93b0e392d9c5b4806696fdc1/Assert.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a42ba4db448ed38dcb9fb39194c637a317a8281856b88e139e8a905ee6d12b/Guid.Windows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookStore.Infra/Persistence/BookContext.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,18 +61,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "rider.code.cleanup.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668610767858</updated>
       <workItem from="1668610778867" duration="5988000" />
+      <workItem from="1668619010514" duration="150000" />
+      <workItem from="1668619605495" duration="593000" />
     </task>
     <servers />
   </component>

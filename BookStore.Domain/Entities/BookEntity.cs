@@ -1,6 +1,7 @@
 ﻿using BookStore.Domain.Arguments.Books;
 using BookStore.Domain.Entities.Base;
 using prmToolkit.NotificationPattern;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookStore.Domain.Entities;
 
@@ -25,7 +26,6 @@ public class BookEntity : EntityBase
     {
         Mapping();
     }
-
     public string Title { get; set; }
     public string PublishedDate { get; set; }
     public Uri ThumbnailUrl { get; set; }
@@ -34,7 +34,9 @@ public class BookEntity : EntityBase
     public string Status { get; set; }
     public string Authors { get; set; }
     public string Categories { get; set; }
+    [NotMapped]
     public List<string> AuthorsList => Authors.Split(',').ToList();
+    [NotMapped]
     public List<string> CategoriesList => Categories.Split(',').ToList();
 
     private void Mapping()
