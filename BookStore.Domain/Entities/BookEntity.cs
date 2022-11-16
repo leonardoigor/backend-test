@@ -40,20 +40,27 @@ public class BookEntity : EntityBase
     private void Mapping()
     {
         new AddNotifications<BookEntity>(this)
-            .IfNullOrInvalidLength(x => x.Title, 5,100, "O título deve conter entre 5 e 100 caracteres")
-            .IfNullOrInvalidLength(x => x.PublishedDate, 5, 100, "A data de publicação deve conter entre 5 e 100 caracteres")
-            .IfNullOrInvalidLength(x => x.ShortDescription, 5, 100, "A descrição curta deve conter entre 5 e 100 caracteres")
-            .IfNullOrInvalidLength(x => x.LongDescription, 5, 100, "A descrição longa deve conter entre 5 e 100 caracteres")
+            .IfNullOrInvalidLength(x => x.Title, 5, 100, "O título deve conter entre 5 e 100 caracteres")
+            .IfNullOrInvalidLength(x => x.PublishedDate, 5, 100,
+                "A data de publicação deve conter entre 5 e 100 caracteres")
+            .IfNullOrInvalidLength(x => x.ShortDescription, 5, 100,
+                "A descrição curta deve conter entre 5 e 100 caracteres")
+            .IfNullOrInvalidLength(x => x.LongDescription, 5, 100,
+                "A descrição longa deve conter entre 5 e 100 caracteres")
             .IfNullOrInvalidLength(x => x.Status, 5, 100, "O status deve conter entre 5 e 100 caracteres")
             .IfNullOrInvalidLength(x => x.Authors, 5, 100, "O autor deve conter entre 5 e 100 caracteres")
             .IfNullOrInvalidLength(x => x.Categories, 5, 100, "A categoria deve conter entre 5 e 100 caracteres");
-
     }
 
     public static explicit operator BookEntity(BookAddDTO v)
     {
-        return new BookEntity(v.Title, v.PublishedDate, v.ThumbnailUrl, v.ShortDescription, v.LongDescription, v.Status, v.Authors, v.Categories);
+        if (v.Authors == null)
+            v.Authors = new List<string>();
+        if (v.Categories == null)
+            v.Categories = new List<string>();
+        var authors = string.Join(",", v.Authors);
+        var categories = string.Join(",", v.Categories);
+        return new BookEntity(v.Title, v.PublishedDate, v.ThumbnailUrl, v.ShortDescription, v.LongDescription, v.Status
+            , authors, categories);
     }
-
-
 }

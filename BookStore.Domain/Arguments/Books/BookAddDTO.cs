@@ -8,6 +8,6 @@ public class BookAddDTO
     public string ShortDescription { get; set; }
     public string LongDescription { get; set; }
     public string Status { get; set; }
-    public string Authors { get; set; }
-    public string Categories { get; set; }
+    public List<string> Authors { get; set; }
+    public List<string> Categories { get; set; }
 }

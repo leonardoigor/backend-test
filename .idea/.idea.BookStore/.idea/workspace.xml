@@ -3,18 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c56efe5a-401b-41bd-bfae-823c20463506" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Domain/Arguments/Books/BookAddDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/Arguments/Books/BookAddDTO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Domain/Entities/BookEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/Entities/BookEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Domain/Interfaces/Services/IBookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/Interfaces/Services/IBookService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Domain/Services/BookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/Services/BookService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/ref/BookStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/ref/BookStore.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/refint/BookStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/refint/BookStore.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Tests/BooksTests/BookAddTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/BooksTests/BookAddTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/ref/BookStore.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/ref/BookStore.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/refint/BookStore.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/refint/BookStore.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +41,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "rider.code.cleanup.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="ebd4d664-ab71-44ce-9486-755138c44ef6" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668610767858</updated>
-      <workItem from="1668610778867" duration="2370000" />
+      <workItem from="1668610778867" duration="3433000" />
     </task>
     <servers />
   </component>
@@ -80,16 +85,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BookStore.Tests/BooksTests/BookAddTest.cs</url>
-          <line>22</line>
-          <properties documentPath="C:\Users\igor_\OneDrive\ÁreadeTrabalho\projetos\c#\backend-test\BookStore.Tests\BooksTests\BookAddTest.cs" initialLine="22" containingFunctionPresentation="method 'MustReturnFalseWithErrorNotificationIfPassNullOrInvalidRequest'">
+          <line>36</line>
+          <properties documentPath="C:\Users\igor_\OneDrive\ÁreadeTrabalho\projetos\c#\backend-test\BookStore.Tests\BooksTests\BookAddTest.cs" initialLine="36" containingFunctionPresentation="method 'MustReturnTrueWithoutErrorNotificationIfIsValid'">
             <startOffsets>
-              <option value="575" />
+              <option value="1034" />
             </startOffsets>
             <endOffsets>
-              <option value="610" />
+              <option value="1068" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
