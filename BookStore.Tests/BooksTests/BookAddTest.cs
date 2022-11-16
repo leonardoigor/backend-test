@@ -28,7 +28,6 @@ public class BookAddTest
         result=_bookService.Add(request);
         Assert.IsFalse(result);
         Assert.IsTrue(_bookService.Notifications.Any());
-        Assert.Pass();
     }
 
 
