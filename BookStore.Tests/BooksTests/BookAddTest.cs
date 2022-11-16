@@ -1,6 +1,6 @@
-namespace BookStore.Tests;
+namespace BookStore.Tests.BooksTests;
 
-public class BaseTest
+public class BookAddTest
 {
     [SetUp]
     public void Setup()
