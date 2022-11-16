@@ -5,17 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Domain/Interfaces/Services/IBookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/Interfaces/Services/IBookService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Domain/Services/BookService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/Services/BookService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/BookStore.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/ref/BookStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/ref/BookStore.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/refint/BookStore.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Domain/obj/Debug/net6.0/refint/BookStore.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/BookStore.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/ref/BookStore.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/ref/BookStore.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/refint/BookStore.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Tests/obj/Debug/net6.0/refint/BookStore.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668610767858</updated>
-      <workItem from="1668610778867" duration="4353000" />
+      <workItem from="1668610778867" duration="5359000" />
     </task>
     <servers />
   </component>

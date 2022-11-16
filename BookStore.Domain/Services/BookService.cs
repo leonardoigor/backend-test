@@ -52,4 +52,39 @@ public class BookService : Notifiable, IBookService
 
         return _bookRepository.Remove(book);
     }
+
+
+    public bool Update(BookUpdateDTO request)
+    {
+        BookEntity book;
+        if (request == null || request.Id == Guid.Empty)
+        {
+            AddNotification("Book", "Livro não informado");
+            return false;
+        }
+
+        book = _bookRepository.GetById(request.Id);
+        if (book == null)
+        {
+            AddNotification("Book", "Livro não encontrado");
+            return false;
+        }
+
+        book.Authors = string.Join(",", request.Authors.ToArray());
+        book.Title = request.Title;
+        book.Categories = string.Join(",", request.Categories.ToArray());
+        book.Status = request.Status;
+        book.LongDescription = request.LongDescription;
+        book.PublishedDate = request.PublishedDate;
+        book.ShortDescription = request.ShortDescription;
+        book.ThumbnailUrl = request.ThumbnailUrl;
+        var result = _bookRepository.Edit(book);
+        if (result == null)
+        {
+            AddNotification("Book", "Livro não atualizado");
+            return false;
+        }
+
+        return true;
+    }
 }

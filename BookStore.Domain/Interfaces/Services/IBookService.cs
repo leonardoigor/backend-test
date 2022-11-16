@@ -7,4 +7,5 @@ public interface IBookService : IServiceBase
 {
     bool Add(BookAddDTO bookAddDTO);
     bool Delete(Guid guid);
+    bool Update(BookUpdateDTO request);
 }
