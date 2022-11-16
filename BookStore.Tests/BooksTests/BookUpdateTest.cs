@@ -47,7 +47,7 @@ public class BookUpdateTest
             LongDescription = " Test Test Test",
             PublishedDate = "2021-01-01",
             ShortDescription = " Test Test Test",
-            ThumbnailUrl = new Uri("https://www.c.com")
+            ThumbnailUrl = "https://www.c.com"
         };
         var result = _bookService.Update(request);
         Assert.IsTrue(result);

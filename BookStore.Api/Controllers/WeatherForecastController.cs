@@ -1,19 +1,22 @@
+using BookStore.Api.Controllers.Base;
+using BookStore.Domain.Interfaces.Transactions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookStore.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+public class WeatherForecastController : ControllerBaseApiController
 {
-    private static readonly string[] Summaries = new[]
+    private static readonly string[] Summaries =
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public WeatherForecastController(ILogger<WeatherForecastController> logger, IUnitOfWork transaction) :
+        base(transaction)
     {
         _logger = logger;
     }

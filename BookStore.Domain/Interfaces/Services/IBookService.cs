@@ -8,4 +8,5 @@ public interface IBookService : IServiceBase
     bool Add(BookAddDTO bookAddDTO);
     bool Delete(Guid guid);
     bool Update(BookUpdateDTO request);
+    List<BookUpdateDTO> GetAll(int page, int perPage);
 }

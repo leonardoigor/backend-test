@@ -18,3 +18,4 @@ C:\Users\igor_\OneDrive\ÁreadeTrabalho\projetos\c#\backend-test\BookStore.Infra
 C:\Users\igor_\OneDrive\ÁreadeTrabalho\projetos\c#\backend-test\BookStore.Infra\obj\Debug\net6.0\BookStore.Infra.Migrations.InitMigration.resources
 C:\Users\igor_\OneDrive\ÁreadeTrabalho\projetos\c#\backend-test\BookStore.Infra\obj\Debug\net6.0\BookStore.Infra.csproj.GenerateResource.cache
 C:\Users\igor_\OneDrive\ÁreadeTrabalho\projetos\c#\backend-test\BookStore.Infra\obj\Debug\net6.0\BookStore.Infra.Migrations.UniqueType.resources
+C:\Users\igor_\OneDrive\ÁreadeTrabalho\projetos\c#\backend-test\BookStore.Infra\obj\Debug\net6.0\BookStore.Infra.Migrations.ChangeUriType.resources

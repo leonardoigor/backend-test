@@ -87,4 +87,13 @@ public class BookService : Notifiable, IBookService
 
         return true;
     }
+
+    public List<BookUpdateDTO> GetAll(int page, int pageSize)
+    {
+        var books = _bookRepository.List();
+        var total = books.Count();
+        var totalPages = (int)Math.Ceiling((double)total / pageSize);
+        var booksPage = books.OrderByDescending(x => x.Title).Skip((page - 1) * pageSize).Take(pageSize).ToList();
+        return booksPage.Select(x => (BookUpdateDTO)x).ToList();
+    }
 }
