@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Infra", "BookStor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Ioc", "BookStore.Ioc\BookStore.Ioc.csproj", "{B5B12A23-C4C7-456C-895A-FFDBFC35A1DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api", "BookStore.Api\BookStore.Api.csproj", "{A09AEDB1-AEB6-4A2F-9E8F-788618F39B99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{B5B12A23-C4C7-456C-895A-FFDBFC35A1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5B12A23-C4C7-456C-895A-FFDBFC35A1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5B12A23-C4C7-456C-895A-FFDBFC35A1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09AEDB1-AEB6-4A2F-9E8F-788618F39B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09AEDB1-AEB6-4A2F-9E8F-788618F39B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09AEDB1-AEB6-4A2F-9E8F-788618F39B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09AEDB1-AEB6-4A2F-9E8F-788618F39B99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
