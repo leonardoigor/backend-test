@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 using BookStore.Domain.Entities.Base;
 using BookStore.Domain.Interfaces.Repositories.Base;
 
-namespace BookStore.Infra.Persistence.Repositories;
+namespace BookStore.Infra.Persistence.Repositories.Base;
 
 public class RepositoryBase<TEntity, TId> : IRepositoryBase<TEntity, TId>
     where TEntity : EntityBase
